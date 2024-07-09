@@ -32,6 +32,47 @@ Note, high precipitation level is relative to increased rainfall, which has a hi
 When total precipitation is measured by month, from 2010-2024, June had the highest total precipitation of 4,080.30 and January had the lowest total precipitation. 
 
 
+diagram
+
+### Flood Indicator
+Creating a Flood Indicator helps to predict potential flooding events based on precipitation levels and other relevant weather data. The formula below can be use to create a flood indicator using Power bi
+               Flood Indicator = IF('Sheet1'[precip] > 1936.2, "Yes", "No")
+Where sheet1= name of sheet
+Precip = precipitation
+1936.2mm = Precipitation threshold for lagos this year.
+Precipitation Threshold is the predefined value of precipitate above which certain conditions such as flooding, are likely to occur.
+
+
+Flood Indicators serves as;
+- Warning system: This allows timely warning to be issued to residents and authorities.
+- Risk Management and Mitigation: understanding when and where floods are likely to occur enables better planning.
+- Climate Change Adaptation: it helps track changes in climate pattern, frequency and severity of flood.
+
+
+### Flood History
+From the diagram below, a count of 730 flood indicators for the year 2011, suggests that flood based on the precipitation Threshold,
+recorded 730 instances of flood within that year. A year is 365 days, a count of 730 would indicate an average of 2 flood indicators per day.
+
+Diagram
+
+### Using Forecast
+Forecasting  is making  predictions about future events or conditions based on historical data and statistical models. 
+The dark part of the diagram below, predicts the rain will be in the future. 
+
+Diagram
+
+### Conclusion
+From the findings above, there would be a potential flooding in the Mid-year (June). 
+Authorities of lagos should reinforce regular clearing of the drainage systems and continuous monitoring of the weather. 
+Residents should avoid dumping waste on the road and in the drainage system. This will prevent blockage of the drainage system and improve flow of water.
+
+
+
+
+
+
+
+
   
 
 
