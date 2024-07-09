@@ -1,15 +1,18 @@
 # Flood Prediction Report of Lagos State.
 
-## Introduction
+## Project Overview
 This report aims to predict the likely period of the next flood in lagos state. This is based on the historical weather data from 2010-2024.
-### Dataset Details
+**Dataset Details**
 This includes weather attributes such as:
-- Date : 2010-2024
-- Precipitation
-- Precipitation cover
+- Date:2010-2024
+- Precip: is the Precipitation
+- Precipcover
 - Precipitation type
 - Sea level pressure
 - Total precipitation
+
+### Data Source
+Flood Prediction Report pf Lagos State: The primary dataset for this analysis is the "Lagos 2010-2024.xlsx"file, containing detailed information about weather condition from 2010- 2024.
 
   
 ### PRECIPITATION
