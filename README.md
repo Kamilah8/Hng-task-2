@@ -14,8 +14,21 @@ This includes weather attributes such as:
 ### Data Source
 Flood Prediction Report pf Lagos State: The primary dataset for this analysis is the "Lagos 2010-2024.xlsx"file, containing detailed information about weather condition from 2010- 2024.
 
-  
-### PRECIPITATION
+
+### Tool
+- Excel - Data Cleaning
+- Power Bi - Data Analysis,Visualization and Creating Report.
+
+### Data Cleaning
+
+In the intial data cleaning phase, I performed the following task:
+1. Data loading and inspection.
+2. Handling missing values and spaces.
+
+
+### Data Analysis,Visualization and Creating Report
+   
+## PRECIPITATION
 This refers to any form of water, liquid or solid, that falls from the atmosphere and reaches the ground. 
 It is a crucial component of the Earth’s water cycle and includes various types of atmospheric water phenomena. The main forms of precipitation are:
 - Rain: Liquid water droplets that fall when atmospheric water vapor condenses to form droplets that become heavy enough to overcome air resistance and gravity.
@@ -38,8 +51,10 @@ When total precipitation is measured by month, from 2010-2024, June had the high
 diagram
 
 ### Flood Indicator
-Creating a Flood Indicator helps to predict potential flooding events based on precipitation levels and other relevant weather data. The formula below can be use to create a flood indicator using Power bi
-               Flood Indicator = IF('Sheet1'[precip] > 1936.2, "Yes", "No")
+Creating a Flood Indicator helps to predict potential flooding events based on precipitation levels and other relevant weather data. 
+The formula below can be use to create a flood indicator using Power bi
+               ```Flood Indicator = IF('Sheet1'[precip] > 1936.2, "Yes", "No"). ```
+               
 Where sheet1= name of sheet
 Precip = precipitation
 1936.2mm = Precipitation threshold for lagos this year.
