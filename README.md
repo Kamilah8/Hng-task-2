@@ -1,4 +1,5 @@
 # Flood Prediction Report of Lagos State.
+![flood image](https://github.com/Kamilah8/Hng-task-2/assets/66366192/fa9d7025-0ece-4c75-9a98-af432abd76f1)
 
 ## Project Overview
 This report aims to predict the likely period of the next flood in lagos state. This is based on the historical weather data from 2010-2024.
@@ -36,19 +37,23 @@ It is a crucial component of the Earth’s water cycle and includes various type
 
 Precipitation is measured using a variety of instruments, including rain gauges for liquid precipitation and snow gauges or snow boards for solid forms.
 Precipitation is an important factor in weather patterns, climate and hydrology,  affecting water supply, agriculture and ecosystem.
-diagram
+
 
 #### Calculating Total Precipitation
 ##### By Year
 From the diagram below, 2011 had a total precipitation of 3,898.00 when measured by year making it the year with the highest Precipitation. 
 Note, high precipitation level is relative to increased rainfall, which has a high tendency of causing floods.
 
+![Total Precipitation by Year](https://github.com/Kamilah8/Hng-task-2/assets/66366192/cec86980-24db-4b60-be06-6143ec32023a)
+
 
 ##### By Month & day
 When total precipitation is measured by month, from 2010-2024, June had the highest total precipitation of 4,080.30 and January had the lowest total precipitation. 
 
+![Total Precipitation By Month](https://github.com/Kamilah8/Hng-task-2/assets/66366192/10a6eb73-3ef3-49cc-acc0-7b603f187385)
 
-diagram
+![Total Precipitation By Day](https://github.com/Kamilah8/Hng-task-2/assets/66366192/d5d4f97a-6ac3-4fae-800c-458df932bca7)
+
 
 #### Flood Indicator
 Creating a Flood Indicator helps to predict potential flooding events based on precipitation levels and other relevant weather data. 
@@ -60,7 +65,6 @@ Precip = precipitation
 1936.2mm = Precipitation threshold for lagos this year.
 Precipitation Threshold is the predefined value of precipitate above which certain conditions such as flooding, are likely to occur.
 
-
 Flood Indicators serves as;
 - Warning system: This allows timely warning to be issued to residents and authorities.
 - Risk Management and Mitigation: understanding when and where floods are likely to occur enables better planning.
@@ -71,13 +75,14 @@ Flood Indicators serves as;
 From the diagram below, a count of 730 flood indicators for the year 2011, suggests that flood based on the precipitation Threshold,
 recorded 730 instances of flood within that year. A year is 365 days, a count of 730 would indicate an average of 2 flood indicators per day.
 
-Diagram
+![Number Of Flood by Year](https://github.com/Kamilah8/Hng-task-2/assets/66366192/1a4d18c2-3070-4a78-902e-8055217054d5)
+
 
 #### Using Forecast
 Forecasting  is making  predictions about future events or conditions based on historical data and statistical models. 
 The dark part of the diagram below, predicts the rain will be in the future. 
 
-Diagram
+![Screenshot 2024-07-08 124203](https://github.com/Kamilah8/Hng-task-2/assets/66366192/e23f053a-5963-4057-8843-ab42b9627379)
 
 #### Conclusion
 From the findings above, there would be a potential flooding in the Mid-year (June). 
